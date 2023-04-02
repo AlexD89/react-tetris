@@ -7,7 +7,7 @@ export const TETROMINOS = {
             [0, 'I', 0, 0],
             [0, 'I', 0, 0],
         ],
-        color: '33, 44, 55'
+        color: '255, 255, 0'
     },
     J: {
         shape: [
@@ -15,7 +15,7 @@ export const TETROMINOS = {
             [0, 'J', 0 ],
             ['J', 'J', 0],
         ],
-        color: '33, 44, 55'
+        color: '255, 255, 0'
     },
     L: {
         shape: [
@@ -23,14 +23,14 @@ export const TETROMINOS = {
             [0, 'L', 0],
             [0, 'L', 'L'],
         ],
-        color: '33, 44, 55'
+        color: '255, 255, 0'
     },
     O: {
         shape: [
             ['O', 'O'],
             ['O', 'O'],
         ],
-        color: '33, 44, 55'
+        color: '255, 255, 0'
     },
     S: {
         shape: [
@@ -38,7 +38,7 @@ export const TETROMINOS = {
             ['S', 'S', 0],
             [0, 0, 0],
         ],
-        color: '33, 44, 55'
+        color: '255, 255, 0'
     },
     T: {
         shape: [
@@ -46,7 +46,7 @@ export const TETROMINOS = {
             [0, 'T', 0],
             [0, 0, 0],
         ],
-        color: '33, 44, 55'
+        color: '255, 255, 0'
     },
     Z: {
         shape: [
@@ -54,7 +54,7 @@ export const TETROMINOS = {
             [0, 'Z', 'Z'],
             [0, 0, 0],
         ],
-        color: '33, 44, 55'
+        color: '255, 255, 0'
     },
 };
 
