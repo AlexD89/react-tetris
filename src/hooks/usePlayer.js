@@ -11,11 +11,11 @@ export const usePlayer = () => {
     });
 
     const updatePlayerPos = ({ x, y, collided }) => {
-        setPlayer(prev => ({
-            ...prev,
-            pos: { x: (prev.pos.x += x), y: (prev.pos.y += y)},
-            collided,
-        }))
+        setPlayer({
+            pos: { x: player.pos.x += x, y: player.pos.y += y },
+            tetromino: player.tetromino,
+            collided: collided,
+        })
     }
 
     const resetPlayer = useCallback(() => {
